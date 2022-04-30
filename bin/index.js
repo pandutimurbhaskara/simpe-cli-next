@@ -5,15 +5,17 @@ const globalCategory = require("./GLOBAL_CATEGORIES")
 const {nextBoilerList} = require("./template/next_boiler");
 const fs = require("fs");
 const path = require("path");
+const {reactBoilerList} = require("./template/react_boiler");
+
 questions = [{
     type: 'list',
     name: 'categoriesType',
     message: 'Choose Template Categories :',
     choices: CategoriesList,
-    default: 'mongoDB'
 }, {
-    type: 'input',
+    type: 'list',
     name: 'template',
+    choices: reactBoilerList,
     message: 'Choose react boiler',
     when: (answers) => answers.categoriesType === globalCategory.REACT_BOILER
 }, {
@@ -36,7 +38,7 @@ questions = [{
 ]
 
 inquirer.prompt(questions).then((answers) => {
-    fs.appendFile(path.join(answers.directory, answers.fileName) + ".js", answers.template, function (err) {
+    fs.appendFile(path.join(answers.directory, answers.fileName+ ".js") , answers.template, function (err) {
         if (err) throw err;
         console.log('Saved!');
     });

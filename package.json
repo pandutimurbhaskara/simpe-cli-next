@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "cli for creating fs",
   "main": "bin/index.js",
+  "keywords": ["snippet", "template", "usefull"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
