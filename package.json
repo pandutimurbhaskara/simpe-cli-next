@@ -10,9 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.1",
+    "inquirer": "^8.2.4",
     "yargs": "^17.4.1"
   },
   "bin": {
-    "cli-fs": "./bin/index.js"
+    "cli-fs": "bin/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.29"
   }
 }
