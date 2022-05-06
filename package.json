@@ -1,6 +1,6 @@
 {
   "name": "simple-cli-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cli for creating fs",
   "main": "bin/index.js",
   "keywords": [
