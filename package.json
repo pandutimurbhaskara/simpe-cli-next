@@ -1,6 +1,6 @@
 {
   "name": "simple-cli-next",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "cli for creating fs",
   "main": "bin/index.js",
   "keywords": [
@@ -32,4 +32,3 @@
   },
   "homepage": "https://github.com/pandutimurbhaskara/simpe-cli-next#readme"
 }
-
