@@ -19,6 +19,5 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.29"
-  },
-  "private": "true"
+  }
 }
