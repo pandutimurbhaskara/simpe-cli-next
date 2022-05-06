@@ -1,5 +1,5 @@
 {
-  "name": "cli-fs",
+  "name": "simple-cli-next",
   "version": "1.0.0",
   "description": "cli for creating fs",
   "main": "bin/index.js",
@@ -15,9 +15,10 @@
     "yargs": "^17.4.1"
   },
   "bin": {
-    "cli-fs": "bin/index.js"
+    "simple-cli-next": "bin/index.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.29"
-  }
+  },
+  "private": "true"
 }
