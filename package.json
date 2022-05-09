@@ -1,6 +1,6 @@
 {
   "name": "simple-cli-next",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli for creating fs",
   "main": "bin/index.js",
   "keywords": [
@@ -32,5 +32,4 @@
     "url": "git+https://github.com/pandutimurbhaskara/simpe-cli-next.git"
   },
   "homepage": "https://github.com/pandutimurbhaskara/simpe-cli-next#readme",
-  "private": "true"
 }
