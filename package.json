@@ -1,7 +1,7 @@
 {
   "name": "simple-cli-next",
-  "version": "1.1.1",
-  "description": "cli for creating fs",
+  "version": "1.1.2",
+  "description": "cli for generate and insert code template",
   "main": "bin/index.js",
   "keywords": [
     "snippet",

@@ -1,4 +1,3 @@
-
 ## How to use the package
 1. Install package using :
     ````
@@ -11,8 +10,7 @@
    npx simple-cli-next
    `````
    in your terminal
-
-
 ---
 
 ## This is a experiment packages
+## THIS LIBRARY STILL UNDER DEVELOPMENT
