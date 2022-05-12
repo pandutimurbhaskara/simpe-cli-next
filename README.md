@@ -6,7 +6,11 @@
     or
     npm install simple-cli-next
    ````
-2. Run using **simple-cli-next** in your terminal
+2. Run using 
+   `````
+   npx simple-cli-next
+   `````
+   in your terminal
 
 
 ---

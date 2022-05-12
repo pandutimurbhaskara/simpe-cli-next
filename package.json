@@ -1,6 +1,6 @@
 {
   "name": "simple-cli-next",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "cli for creating fs",
   "main": "bin/index.js",
   "keywords": [
@@ -18,6 +18,7 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "inquirer": "^8.2.4",
+    "inquirer-fuzzy-path": "^2.3.0",
     "simple-cli-next": "^1.0.3",
     "yargs": "^17.4.1"
   },
