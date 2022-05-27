@@ -1,7 +1,7 @@
 {
   "name": "simple-cli-next",
-  "version": "1.1.2",
-  "description": "cli for generate and insert code template",
+  "version": "1.1.3",
+  "description": "cli for generate and insert code template for next js",
   "main": "bin/index.js",
   "keywords": [
     "snippet",
@@ -18,6 +18,7 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "inquirer": "^8.2.4",
+    "inquirer-autocomplete-prompt": "^2.0.0",
     "inquirer-fuzzy-path": "^2.3.0",
     "simple-cli-next": "^1.0.3",
     "yargs": "^17.4.1"
