@@ -1,6 +1,6 @@
 {
   "name": "simple-cli-next",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "cli for generate and insert code template for next js",
   "main": "bin/index.js",
   "keywords": [
